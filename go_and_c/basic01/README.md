@@ -1,1 +1,1 @@
-This program creates a basic structure from C and prints fields from the C structure (two integers and a string).
+A Go program that creates and prints a basic C structure (integer and string fields).

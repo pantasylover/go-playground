@@ -1,6 +1,6 @@
-My Golang sandbox that consists of test programs and such.
+My Golang playground that consists of test programs and such.
 
-* [Go & C](./go_and_c/) - Programs that interact with C.
+* [Go & C](./go_and_c/) - Go Programs that interface with C via the [Cgo](https://pkg.go.dev/cmd/cgo) package using structures, functions, and more!
     * [Basic01](./go_and_c/basic01/)
 
 ## Building
