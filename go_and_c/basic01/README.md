@@ -1,0 +1,1 @@
+This program creates a basic structure from C and prints fields from the C structure (two integers and a string).
