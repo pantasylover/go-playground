@@ -1,0 +1,1 @@
+A Go program that creates and retrieves values from a C structure with different types of integer fields/sizes and a string. Also uses functions to retrieve/set fields and allocates the C structure with `malloc()` so you need to free it inside of the main Go program.
