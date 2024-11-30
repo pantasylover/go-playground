@@ -16,5 +16,5 @@ struct people {
 } typedef People;
 
 Person CreatePerson(const char *firstName, const char *lastName, int age);
-People* GetPeople(Person people[MAX_PEOPLE], int len);
+People* GetPeople(Person people[], int len);
 void FreePeople(People* p);
