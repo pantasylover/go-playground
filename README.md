@@ -9,7 +9,7 @@ My Golang playground that consists of test programs and such.
     * [Array01](./go_and_c/array01/) - A Go program that passes *people* created from a config file to a C function that dynamically allocates memory for each person and returns a separate array of the people passed to the function.
     * [Array02](./go_and_c/array02/) - A Go program that does the exact same thing from Array01. However, in this version, the way dynamic entries are allocated is different and allows you to specify the max entries when retrieving from the Go program via `GetPeople()`.
 * [Structures](./structs/) - Go programs that interact with structures.
-    * [interface_to_slice01](./structs/interface_to_slice01/) - A Go program that converts/casts a field that has the `interface{}` type to a custom structure.
+    * [InterfaceToStruct01](./structs/interface_to_slice01/) - A Go program that converts/casts a field that has the `interface{}` type to a custom structure.
 
 ## Building
 You may use `make` to build all Go programs and libraries into the [`build/`](./build) directory. You may also use `make clean` to cleanup all build files.
