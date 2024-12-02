@@ -1,0 +1,1 @@
+A Go program that reads and writes to a string channel in separate Go routines.
