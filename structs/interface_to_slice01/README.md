@@ -1,0 +1,1 @@
+A Go program that converts/casts a field that has the `interface{}` type to a custom structure.
