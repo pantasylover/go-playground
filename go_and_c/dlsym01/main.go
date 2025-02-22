@@ -7,16 +7,18 @@ package main
 
 int callFunc1(void *f) {
     int (*fn)() = (int (*)())f;
+
     return fn();
 }
 
 void callFunc2(void *f, int x, int y) {
-    void (*fn)(int, int) = (void (*)(int, int))f;
-    fn(x, y);
+	void (*fn)(int, int) = (void (*)(int, int))f;
+
+	fn(x, y);
 }
 
 int callFunc3(void *f, char *x, int y, int z) {
-    int (*fn)(const char*, int, int) = (int (*)(const char*, int, int))f;
+	int (*fn)(const char*, int, int) = (int (*)(const char*, int, int))f;
 
 	return fn(x, y, z);
 }
