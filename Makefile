@@ -1,6 +1,6 @@
 all: go_and_c chans structs
 
-go_and_c: go_and_c_basic01 go_and_c_basic02 go_and_c_pointer01 go_and_c_array01 go_and_c_array02
+go_and_c: go_and_c_basic01 go_and_c_basic02 go_and_c_pointer01 go_and_c_array01 go_and_c_array02 go_and_c_dlsym01
 
 go_and_c_basic01:
 	$(MAKE) -C go_and_c/basic01
@@ -16,6 +16,9 @@ go_and_c_array01:
 
 go_and_c_array02:
 	$(MAKE) -C go_and_c/array02
+
+go_and_c_dlsym01:
+	$(MAKE) -C go_and_c/dlsym01
 
 chans: chans_chan01
 
