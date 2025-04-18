@@ -1,5 +1,3 @@
-        ret->entries[i] = malloc(sizeof(Person));
-
         if (!ret->entries[i])
             continue;
 
