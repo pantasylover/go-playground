@@ -1,4 +1,3 @@
-    if (!ret)
         return NULL;
 
     memset(ret, 0, sizeof(People));
