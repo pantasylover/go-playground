@@ -1,5 +1,3 @@
-    memset(ret, 0, sizeof(People));
-
     int rLen = 0;
 
     for (int i = 0; i < len; i++) {        
