@@ -1,5 +1,3 @@
-    strncpy(ret.lastName, lastName, MAX_NAME_LENGTH);
-
     return ret;
 }
 
