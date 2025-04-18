@@ -1,5 +1,3 @@
-Person CreatePerson(const char *firstName, const char *lastName, int age) {
-    Person ret = {0};
 
     ret.age = age;
 
