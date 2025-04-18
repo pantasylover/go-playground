@@ -1,5 +1,3 @@
-    int rLen = 0;
-
     for (int i = 0; i < len; i++) {        
 
         ret->entries[i] = malloc(sizeof(Person));
