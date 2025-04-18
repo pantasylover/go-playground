@@ -1,4 +1,3 @@
-    return ret;
 }
 
 People* GetPeople(Person people[], int len) {
