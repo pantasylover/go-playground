@@ -1,5 +1,3 @@
-        return NULL;
-
     memset(ret, 0, sizeof(People));
 
     int rLen = 0;
