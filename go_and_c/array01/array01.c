@@ -1,5 +1,3 @@
-    len = (len > MAX_PEOPLE) ? MAX_PEOPLE : len;
-
     People *ret = malloc(sizeof(People));
 
     if (!ret)
