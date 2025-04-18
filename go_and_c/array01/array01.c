@@ -1,5 +1,3 @@
-    People *ret = malloc(sizeof(People));
-
     if (!ret)
         return NULL;
 
