@@ -1,6 +1,3 @@
-
-    ret.age = age;
-
     strncpy(ret.firstName, firstName, MAX_NAME_LENGTH);
     strncpy(ret.lastName, lastName, MAX_NAME_LENGTH);
 
