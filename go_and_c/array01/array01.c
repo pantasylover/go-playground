@@ -1,5 +1,3 @@
-}
-
 People* GetPeople(Person people[], int len) {
     len = (len > MAX_PEOPLE) ? MAX_PEOPLE : len;
 
